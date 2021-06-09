@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class A722 {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
@@ -18,7 +17,6 @@ public class A722 {
                 if (a[i] > min)
                     count++;
             }
-
             System.out.println(count);
         }
     }
