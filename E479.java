@@ -41,9 +41,7 @@ public class E479 {
         for (int j = 1; j <= n; j++) {
             if (vis[j] == -1 && branchcheck[j] == true) {
                 dfs(arr, vis, j, 0, branchcheck);
-
                 if (notperfectcycle == false && cycle_mila == true) {
-
                     ans++;
                 }
             }
@@ -54,6 +52,7 @@ public class E479 {
     }
 
     public static void dfs(ArrayList<ArrayList<Integer>> arr, int[] vis, int node, int parent, boolean[] branchcheck) {
+        System.out.println(node);
         if (branchcheck[node] == false) {
             notperfectcycle = true;
         }
