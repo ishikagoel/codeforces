@@ -1,0 +1,1 @@
+{"name":"Local: BER111","url":"c:\\Users\\ishika\\Desktop\\codeforces\\BER111.java","tests":[{"id":1626279839850,"input":"3\n3 2 0\n000\n5 -2 5\n11001\n6 1 -4\n100111","output":"6\n15\n-2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ishika\\Desktop\\codeforces\\BER111.java","group":"local","local":true}
